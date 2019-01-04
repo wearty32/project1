@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>p</title>
+<style> 
+.font-style {
+font-family: arial;
+font-size : 22px;
+font-weight : bold;
+font-style : italic;
+font-variant : small-caps;
+}
+
+.text-layout {
+color : green;
+text-align: right;
+text-decoration : line-through;
+text-shadow :5px 3px 2px red ;
+text-transform : capitalize;
+white-space :nowrap;
+}
+</style>
+</head>
+<body>
+
+<p> What involved TEXT in CSS </p>
+<p class="font-style">As you'll have already experienced in your work with HTML and CSS, text inside 
+an element is laid out inside the element's content box. It starts at the top left of the content area 
+(or the top right, in the case of RTL language content), and flows towards the end of the line. 
+Once it reaches the end, it goes down to the next line and continues, 
+then the next line, <span class="text-layout">until all the content has been placed in the box.</span> 
+Text content effectively behaves like a series of inline elements, 
+being laid out on lines adjacent to one another, 
+and not creating line breaks until the end of the line is reached,
+ or unless you force a line break manually using the <br> element. </p>
+
+</body>
+</html>
