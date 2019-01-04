@@ -1,2 +1,0 @@
-# project1
-THIS IS PROJECT 1
